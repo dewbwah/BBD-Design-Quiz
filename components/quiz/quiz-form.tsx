@@ -406,10 +406,10 @@ export function QuizForm() {
             value={formData.stayDuration}
             onChange={(v) => updateField("stayDuration", v)}
             options={[
-              { value: "long-term", label: "Long-term" },
+              { value: "1-5-years", label: "1-5 years" },
               { value: "5-10-years", label: "5-10 years" },
               { value: "unsure", label: "Unsure" },
-              { value: "investment", label: "Investment property" },
+              { value: "long-term", label: "Long-term" },
             ]}
           />
         </div>
